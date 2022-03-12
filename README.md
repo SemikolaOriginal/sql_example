@@ -1,7 +1,10 @@
-# sql_example
+# Example of SQL Database (descriptions of essensses, tables, triggers and storage functions)
+
+Здесь приведен пример описания базы данных условной средней общеобразовательной школы. База данных предназначена для хранения списков с описанием физических лиц, списков классов, списков учителей, списков преподаваемых предметов.
+
+На рисунке ниже представлена архитектура данных.
 
 ![Database structure](https://user-images.githubusercontent.com/33044635/158016824-74fd8908-3939-44a5-87ff-cf268a27912b.png)
-Example of SQL Database (Descriptions of essensses, tables, triggers and storage functions)
 
 PEOPLES - таблица физических лиц (наличие лица в таблице само по себе указывает на его связь со школой), где hid - уникальное число - указатель на человека. Сущность физического лица описывается следующими полями:
 - имя name;
